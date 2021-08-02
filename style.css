@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container button:last-child {
+  margin-left: 15px;
+}
+
+.container button {
+  background-color: #2196F3;
+  margin-top: 100px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.container button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(228, 125, 7, 0.733);
+}
